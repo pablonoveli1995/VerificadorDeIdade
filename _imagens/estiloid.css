@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(77, 197, 245);
+}
+header {
+text-align: center;
+margin-top: 5%;
+margin-bottom: 3%;
+}
+section {
+    border: 0.5px solid  black;
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-radius: 2%;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.322);
+    
+}
+footer{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font: italic 18px Arial;
+}
+div#ano{
+    margin: 20px;
+}
+div#btns{
+    margin: 20px;
+
+}
+button#verificar{
+    margin-top: 20px;
+    cursor: pointer;
+}
+div#img{
+    margin: 20px;
+    font: normal 20px times;
+    
+}
+input#inputAno {
+    margin-left: 1%;
+}
